@@ -36,3 +36,9 @@ claude plugin install aap-claude-skills@aap-claude-skills
 - Red Hat Ansible Automation Platform 2.7
 - OpenShift operator deployment (not containerized)
 - `oc` CLI authenticated to the cluster
+
+### Additional requirements for `/aap-deploy-intelligent-assistant-ocp`
+
+- An LLM inference endpoint URL (e.g. `https://your-llm-host/v1`)
+- An API key / token for the LLM endpoint
+- The model name as configured on the LLM endpoint
