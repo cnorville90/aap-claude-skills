@@ -24,9 +24,11 @@ claude plugin install aap-claude-skills@aap-claude-skills
 
 **3. Start a new Claude Code session** — skills load at session start.
 
-**4. Use the skill:**
+**4. Use a skill:**
 ```
 /aap-enable-dashboard-ocp
+/aap-install-portal-ocp
+/aap-deploy-intelligent-assistant-ocp
 ```
 
 ## Requirements
