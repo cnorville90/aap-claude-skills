@@ -10,9 +10,21 @@ Claude Code skills for Ansible Automation Platform (AAP) on OpenShift.
 
 ## Installation
 
+**1. Add the marketplace:**
 ```bash
-# Add this plugin to Claude Code
-claude plugin add https://github.com/cnorville90/aap-claude-skills
+claude plugin marketplace add https://github.com/cnorville90/aap-claude-skills
+```
+
+**2. Install the plugin:**
+```bash
+claude plugin install aap-claude-skills@aap-claude-skills
+```
+
+**3. Start a new Claude Code session** — skills load at session start.
+
+**4. Use the skill:**
+```
+/aap-enable-dashboard-ocp
 ```
 
 ## Requirements
