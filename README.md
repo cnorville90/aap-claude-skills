@@ -8,6 +8,7 @@ Claude Code skills for Ansible Automation Platform (AAP) on OpenShift.
 |-------|-------------|
 | `/aap-enable-dashboard-ocp` | Enable the automation dashboard post-installation on an OCP operator deployment |
 | `/aap-install-portal-ocp` | Install the Ansible automation portal (self-service portal) on an OCP operator deployment |
+| `/aap-deploy-intelligent-assistant-ocp` | Deploy the Ansible Lightspeed intelligent assistant (AI chatbot) on an OCP operator deployment |
 
 ## Installation
 
