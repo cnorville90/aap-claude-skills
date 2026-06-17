@@ -7,6 +7,7 @@ Claude Code skills for Ansible Automation Platform (AAP) on OpenShift.
 | Skill | Description |
 |-------|-------------|
 | `/aap-enable-dashboard-ocp` | Enable the automation dashboard post-installation on an OCP operator deployment |
+| `/aap-install-portal-ocp` | Install the Ansible automation portal (self-service portal) on an OCP operator deployment |
 
 ## Installation
 
