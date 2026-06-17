@@ -1,0 +1,22 @@
+{
+  "name": "aap-claude-skills",
+  "owner": {
+    "name": "cnorville90",
+    "email": "cnorville90@hotmail.com"
+  },
+  "metadata": {
+    "description": "Claude Code skills for Ansible Automation Platform on OpenShift",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "aap-claude-skills",
+      "description": "Skills for managing Ansible Automation Platform (AAP) on OpenShift (OCP) operator deployments",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/aap-enable-dashboard-ocp"
+      ]
+    }
+  ]
+}
