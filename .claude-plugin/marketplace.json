@@ -15,7 +15,9 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/aap-enable-dashboard-ocp"
+        "./skills/aap-enable-dashboard-ocp",
+        "./skills/aap-install-portal-ocp",
+        "./skills/aap-deploy-intelligent-assistant-ocp"
       ]
     }
   ]
